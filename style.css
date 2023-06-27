@@ -1,0 +1,90 @@
+body {
+    flex: 1;
+    font-family: 'Lato', sans-serif;   
+}
+h1 {
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+}
+h2 {   
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+h3, h4 {
+    color: #B3C890;
+}
+p {
+    font-weight: bold;
+}
+a {
+    margin: 20px 10px;
+    text-decoration: none;
+    color: #B3C890;
+    font-weight: bold;
+}
+.header {
+    background-color: #F5F0BB;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.header-text {
+    text-align: left;
+    color: #B3C890;
+    font-size: 2rem;
+    padding-top: 100px;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: column;
+}
+.welcome-img {
+    border-radius: 40%;
+}
+.h2-middle {
+    font-size: 2rem;
+    color: #B3C890;
+}
+hr {
+    border: dotted #B3C890 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.parent {
+    margin: 100px;
+    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 50px;
+}
+.contact {
+    text-align: center;
+}
+.bottom-container {
+    text-align: center;
+    height: 300px;
+    background-color: #F5F0BB;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.copyright {
+    font-family: 'Diphylleia', serif;
+}
+.brain {
+    width: 40%;
+    margin: 50px;
+}
+
+@media (max-width: 700px) {
+    .parent {
+        display: flex;
+        flex-direction: column;
+    }    
+}
+
